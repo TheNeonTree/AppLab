@@ -1,0 +1,1017 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: white;
+    font-family: Poppins, serif;
+    font-weight: 400;
+    color: rgb(36, 47, 81);
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    margin: 0 auto;
+    width: 100vw;
+    margin-top: 5.813rem;
+    position: relative;
+    z-index: 10;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+.container-column {
+    display: flex;
+    flex: 1;
+    padding: 1rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container-row {
+    display: flex;
+    flex: 1;
+    padding: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto; 
+    padding: 0 0.938rem;
+    position: relative;
+  }
+
+.header {
+    max-width: 1170px;
+    margin: 0 auto; 
+    padding: 0 0.938rem;
+  }
+
+#top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 2rem 1.875rem 2rem;
+
+}
+
+li {
+    display: inline-block;
+    padding-right: 2.188rem;
+}
+
+li a {
+    color: rgb(36, 47, 81);
+    font-weight: 400;
+}
+
+li a:hover {
+    color: rgb(37, 0, 249);
+}
+
+.logo {
+    flex: 0 0 auto;
+}
+
+.right-container {
+    display: flex;
+    align-items: center;
+  }
+
+.navbar {
+    justify-items: right;
+    align-items: end;
+}
+
+.button {
+    background-color: rgb(37, 0, 249);
+    padding: 1rem 2.5rem;
+    border-radius: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: rgb(85, 55, 255);
+    cursor: pointer;
+}
+.label img {
+    background-color: rgb(254, 170, 37);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    width: 19px;
+}
+
+.label {
+    display: flex;
+    background-color: rgb(226, 234, 237);
+    border-radius: 1rem;
+    align-items: center;
+    width: 310px;
+}
+
+.label p {
+    font-weight: 500;
+    padding-left: 1rem;
+}
+
+.best-app-h1 {
+    font-weight: 600;
+    font-size: 3.75rem;
+    line-height: 4rem;
+    color: rgb(36, 47, 81);
+    padding: 0.95rem 0;
+}
+
+.best-app-p {
+    padding: 2.625rem 0;
+    width: 370px;
+}
+
+.best-app {
+    padding-top: 10.875rem;
+}
+
+.header-section {
+    background-image: url(../images/header-bg.png);
+    background-repeat: repeat-x;
+    width: 100%;
+}
+
+.try-for-free {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.try-for-free a {
+    padding-left: 2rem;
+}
+
+.trusted-gallery {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 1rem 0;
+
+}
+
+.container-trusted {
+    display: flex;
+    flex-direction: column;
+}
+.trusted-gallery img {
+    padding: 2.188rem;
+}
+
+.trusted-p {
+    padding-top: 4.25rem;
+}
+
+.features h1 {
+    max-width: 16rem;
+    padding: 3rem 0 1rem 0;
+    line-height: 2.25rem;
+}
+
+.features p {
+    padding-bottom: 4rem;
+}
+
+.phone {
+    width: 50%;
+}
+
+.phone img {
+    width: 100%;
+}
+
+.features-box {
+    display: grid;
+    grid-template-columns: 88px 2fr;
+    grid-template-rows: 35px auto;
+    padding-bottom: 3rem;
+    width: 100%;
+    min-width: 250px;
+    grid-auto-flow: column;
+}
+
+.features-icon {
+    grid-area: 1 / 1 / 3 / 2
+}
+
+.features-box h3 {
+    grid-area: 1 / 2 / 2 / 3;
+    padding: 0 1rem;
+}
+
+.features-box p {
+    grid-area: 2 / 2 / 3 / 3;
+    padding: 0 1rem;
+}
+
+.smart-jackpot-left h1 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: rgb(36, 47, 81);
+    padding: 0 2rem 0 3rem;
+}
+
+.smart-jackpot-left {
+    border-right: 1px solid rgb(36, 47, 81);
+}
+
+.smart-jackpot-right p {
+    padding: 0 1rem;
+}
+
+.smart-jackpot-bottom {
+    padding: 6rem 1rem;
+}
+
+.smart-jackpot-bottom img {
+    width: 88px;
+    padding-bottom: 1.5rem;
+}
+
+.smart-jackpot-box {
+    max-width: 260px;
+}
+
+.red {
+    color: rgb(245, 87, 103);
+}
+
+.blue {
+    color: rgb(37, 99, 255);
+}
+
+.green {
+    color: rgb(64, 151, 95);
+}
+
+
+.designed {
+    align-content: center;
+    justify-content: center;
+    padding: 0 1rem 0 5rem;
+}
+
+
+.designed-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.designed h1 {
+    font-size: 36px;
+    padding-bottom: 2rem;
+    font-weight: 600;
+    line-height: 38px;
+}
+
+.designed-p {
+    padding-bottom: 3rem;
+}
+
+.choose-our-app-card {
+    width: 260px;
+    padding: 3rem;
+}
+
+.choose-our-app-container {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ultimate-features {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background-image: url(../images/phone-choice-app.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    box-sizing: border-box;
+}
+
+.ultimate-features-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 1170px;
+    margin: 0 auto; 
+}
+
+
+.ultimate-features-card {
+    flex-basis: 250px;
+    padding: 0 4rem 2rem 0;
+}
+
+.ultimate-features-features {
+    display: flex;
+    flex-direction: column;
+}
+
+.ultimate-features-left {
+    padding: 0;
+}
+
+.ultimate-features-card img {
+    padding-bottom: 1rem;
+}
+
+.features-h1 {
+    max-width: 22.5rem;
+    font-size: 2.25rem;
+    line-height: 2.875rem;
+    padding-bottom: 1rem;
+}
+
+.features-p {
+    max-width: 460px;
+    padding-bottom: 3rem;
+}
+
+.section-header h1 {
+    width: 530px;
+    text-align: center;
+    padding: 5rem 1rem 2rem 1rem;
+}
+
+.section-header p {
+    width: 630px;
+    text-align: center;
+    padding: 0 1rem 5rem 1rem;
+    color: rgb(36, 47, 81);
+}
+
+.choose-plan {
+    display: flex;
+    flex-direction: row;
+    padding: 0.40rem;
+    border: 2px solid #ebebeb;
+    border-radius: 22.5rem;
+    max-width: 1170px;
+    justify-content: center;
+    
+}
+
+#pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.annually {
+    background-color: white;
+    color: #a2a3a5;
+    margin-left: 0.3125rem;
+}
+
+.monthly {
+    margin-right: 0.3125rem;
+}
+
+.annually:hover {
+    background-color: #ebebeb;
+    color: #999ca5;
+}
+
+.pricing-table-container {
+    display: flex;
+    margin-top: 3rem;
+    align-items: flex-start
+}
+
+.price-text {
+    font-size: 3.75rem;
+    font-weight: 600;
+    color: inherit!important;
+    text-align: center;
+}
+
+.price-text span {
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #999ca5;
+    text-align: center;
+}
+
+.price {
+    background: linear-gradient(to top, #f4f7f9, #fefeff);
+    padding: 4.0625rem 2.375rem 2.375rem 2.375rem;
+    border-top-left-radius: 0.625rem;
+    border-top-right-radius: 0.625rem;
+    
+}
+
+.price h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.price p {
+    color: #999ca5;
+}
+
+.plan-features p:last-child{
+    margin-bottom: 1.5625rem;
+}
+
+.pricing-table {
+    border-radius: 0.625rem;
+    margin-bottom: 18.75rem;
+    border: 0.125rem solid #ebebeb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+
+
+.selected-price-table {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1), 
+                -10px 10px 20px rgba(0, 0, 0, 0.1); 
+    border: 1px solid transparent;
+    padding-bottom: 1.5625rem;
+}
+
+
+.plan-features p {
+    text-align:  center;
+    color: #999ca5;
+    padding: 0.75rem;
+}
+
+.pricing-table a {
+    margin: 2rem 0
+}
+
+.client-satisfaction {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background-image: url(../images/testomila-people.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    box-sizing: border-box;
+}
+
+.client-satisfaction-container{
+    max-width: 1170px;
+    margin: 0 auto; 
+    margin-top: 10.25rem;
+}
+
+.client-satisfaction-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 600px;
+    margin-left: 40%;
+    padding-left: 10%;
+    
+}
+
+.ultimate-features-features {
+    display: flex;
+    flex-direction: column;
+}
+
+.client-satisfaction-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.ceo-box {
+    display: flex;
+    justify-items: center;
+}
+
+.ceo-box-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+.arrow-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.clip-star {
+    background: gold;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+  }
+
+  .five-stars {
+    margin-bottom: 1.75rem;
+  }
+
+  .arrow-left {
+    margin-right: 1rem;
+  }
+
+  .client-satisfaction-h1 {
+    max-width: 450px;
+    margin-bottom: 2rem;
+  }
+
+  .faq-container {
+    padding: 1rem;
+    margin-top: 9.375rem;
+  }
+
+  .faq-header h1 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .faq-header p {
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 4.0625rem;
+  }
+
+  .faq-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .faq-question {
+    background-color: #f5f7fa;
+    margin-bottom: 0.625rem;
+  }
+
+  .faq-question p {
+    margin-top: 2.5rem;
+  }
+
+  .open {
+    padding: 3.125rem;
+  }
+
+  .close {
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+  }
+
+  .download-app-container {
+    background-image: url(../images/trial-bg.png);
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background-repeat: no-repeat;
+    background-position: right;
+    box-sizing: border-box;
+    min-height: 480px;
+    margin-top: 7.1875rem;
+  }
+
+  .download-app-content {
+    max-width: 50%;
+    margin-left: 10%;
+  }
+
+  .download-app-content h1 {
+    margin-bottom: 2.8125rem;
+  }
+
+  .download-app-content p {
+    margin-bottom: 3.125rem;
+    max-width: 37.5rem;
+  }
+
+  .app-links a {
+    margin-right: 35px;
+  }
+
+  footer {
+    margin-top: -65px;
+    background-color: #09142e;
+    min-height: 530px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+
+  footer img {
+    margin-top: 7.375rem;
+    margin-bottom: 3.4375rem;
+    height: 2rem;
+    width: 7.3125rem;
+  }
+
+  footer li {
+    color: white;
+  }
+
+  .social-link {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.3125rem;
+    margin-bottom: 5.625rem;
+  }
+  .social-link img {
+    width: 100%;
+    margin: 0
+  }
+
+  .social-link a {
+    padding: 0.75rem;
+  }
+
+  .copyright {
+    color: #5f636e;
+    max-width: 500px;
+    text-align: center;
+  }
+
+  .copyright a {
+    color: #5f636e;
+    font-weight: 600;
+  }
+
+  nav {
+    padding: 1.5rem 2rem;
+    color: #09142e;
+   }
+
+   .checkbtn {
+    font-size: 1.5rem;
+    color: #09142e;
+    cursor: pointer;
+   }
+
+   .nav-mobile {
+    display: none;
+   }
+
+   #check:checked ~ .nav-mobile {
+    display: block;
+   }
+
+   .nav-mobile {
+    z-index: 1;
+    color: #09142e
+   }
+   .nav-mobile a {
+    color: #09142e;
+    display: block;
+   }
+
+   
+
+
+  @media only screen and (max-width: 1199px) {
+    .client-satisfaction {
+        background-size: 60%;
+    }
+
+    .download-app-container {
+        background-size: 60%;
+  }
+
+  footer {
+    margin-top: -80px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+    nav {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .designed-image {
+        width: 50%;
+    }
+
+    .ultimate-features {
+        background-size: 45%;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .checkbtn {
+        font-size: 4rem;
+    }
+
+    .try-for-free {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .right {
+        justify-content: center;
+    }
+
+    .header-section {
+        background-position: bottom;
+        background-size: 300%;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    .designed-image {
+        display: none;
+    }
+
+    .designed {
+        padding: 0;
+    }
+
+    .designed h1 {
+        text-align: center;
+        max-width: 500px;
+    }
+
+    .designed p {
+        text-align: center;
+        max-width: 500px;
+    }
+
+    .ultimate-features {
+        background-image: none;
+    }
+
+    .ultimate-features-left {
+        padding: 3rem;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .features-h1 {
+        text-align: center;
+    }
+
+    .features-p {
+        text-align: center;
+    }
+
+    .features-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .features-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        padding: 2rem;
+    }
+
+    .ultimate-features-card {
+        padding: 0;
+    }
+
+    .choose-our-app-card {
+        padding: 1rem;
+    }
+
+    .client-satisfaction {
+        background-image: none;
+    }
+
+    .client-satisfaction-right {
+        margin-left: 0;
+    }
+
+    .download-app-container {
+        background-size: 100%;
+        background-image: url(../images/trial-bg-mobile.png);
+    }
+
+    .download-app-content {
+        max-width: 70%
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .checkbtn {
+        font-size: 2rem;
+    }
+
+    header {
+        margin-top: 0;
+    }
+
+    .best-app {
+        padding: 0;
+    }
+
+    .label img {
+        display: none;
+    }
+
+    .best-app-h1 {
+        font-size: 25px;
+        line-height: 35px;
+        padding: 15px 5px 15px 5px;
+        text-align: center;
+        max-width: 320px;
+    }
+
+    .best-app-p {
+        max-width: 300px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .right img {
+        width: 100%;
+    }
+
+    .features-box h3 {
+        font-size: 1.25rem;
+        margin-bottom: 0.25rem;
+    }
+
+    .features-box {
+        grid-template-rows: auto auto;
+    }
+
+    .smart-jackpot-container {
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .smart-jackpot-left {
+        border-right: 0px;
+    }
+
+    .smart-jackpot-left h1 {
+        padding: 0;
+        text-align: center;
+        font-size: 2rem;
+        max-width: 300px;
+    }
+
+    .smart-jackpot-right p {
+        padding: 0;
+        text-align: center;
+        max-width: 300px;
+    }
+
+    .smart-jackpot-bottom {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .section-header h1 {
+        max-width: 300px;
+    }
+    
+    .section-header p {
+        max-width: 300px;
+    }
+
+    .section-header {
+        max-width: 300px;
+    }
+
+    .pricing-table-container {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .choose-our-app-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .client-satisfaction-bottom {
+        flex-direction: column;
+    }
+
+    .arrow-box {
+        margin-top: 2rem
+    }
+
+    .client-satisfaction-right {
+        padding-left: 0;
+    }
+
+    .faq-container {
+        padding: 1rem;
+        margin-top: 3rem;
+    }
+
+    .button {
+        padding: 0.50rem 1rem 0.50rem 1rem!important;
+    }
+
+    .app-links img {
+        width: auto;
+        height: 35px;
+    }
+
+    .app-links {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .download-app-container {
+        background-size: 150%;
+        background-image: url(../images/trial-bg-mobile.png);
+    }
+
+    .footer-nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-li {
+        font-size: 12px;
+        padding: 0;
+        text-align: center;
+        
+    }
+
+    li {
+        display: inline-block;
+        padding-right: 0;
+    }
+
+    .copyright {
+        color: #5f636e;
+        max-width: 320px;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
